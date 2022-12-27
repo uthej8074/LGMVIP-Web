@@ -19,7 +19,7 @@ form.addEventListener("submit",function (e) {
 function result() {
     let newEl = document.createElement("div");
     document.body.appendChild(newEl);
-
+  
     let newPara1 = document.createElement("p");
     let newPara2 = document.createElement("p");
     let newPara3 = document.createElement("p");
@@ -56,7 +56,7 @@ function result() {
   newEl.appendChild(newPara9);
   newEl.appendChild(newPara10);
 
-
+  
 
   newPara1.innerHTML = firstname.value;
   newPara2.innerText = lastname.value;
@@ -69,7 +69,7 @@ function result() {
   newPara9.innerHTML = age.value;
   newPara10.innerHTML = "----------------------------------------------";
 }
-
+  
 function check() {
     const address = document.queryCommandIndeterm(".address");
     if (firstname.value == 0) {
@@ -111,5 +111,5 @@ function check() {
         return false;
     }
     return true;
-
+    
 }
