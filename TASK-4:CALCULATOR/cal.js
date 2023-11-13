@@ -12,7 +12,6 @@ button.map((button) => {
       case "←":
         disp.innerText = disp.innerText.slice(0, -1);
         break;
-
       case "=":
         try {
           disp.innerText = eval(disp.innerText);
