@@ -9,7 +9,6 @@ const college=document.querySelector(".college");
 const phno=document.querySelector(".phno");
 const address=document.querySelector(".address");
 const form=document.querySelector(".form");
-
 form.addEventListener("submit",function (e) {
     e.preventDefault();
   check();
